@@ -435,8 +435,11 @@ function closeModal(){const m=document.getElementById("modal");m.classList.remov
 document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")closeModal()});
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
 function toast(msg){const t=document.getElementById("toast");t.textContent=msg;t.classList.add("show");clearTimeout(window.__toast);window.__toast=setTimeout(()=>t.classList.remove("show"),1800)}
+
 render("home");
 })();
 </script>
 </body>
 </html>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-512.png">
