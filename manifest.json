@@ -1,0 +1,15 @@
+{
+  "name": "BudgetingYuk",
+  "short_name": "BudgetingYuk",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#faf7fc",
+  "theme_color": "#7b5aa6",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
